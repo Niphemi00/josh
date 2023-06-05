@@ -1,0 +1,63 @@
+/* GENERAL */
+p{
+  color: whitesmoke;
+  font-family: 'Sora', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  align-items: center;
+  width: auto;
+}
+body{
+  background-color: rgb(58, 58, 62);
+}
+h1,h2{
+  color: white;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+}
+/* HEADER STYLES */
+header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-bottom: 50px;
+}
+button{
+  float: right;
+  width: 167px;
+  height: 52px;
+  border-radius: 2px;
+  border-style: none;
+  margin-top: 10px;
+  font-weight: 600;
+}
+/* MAIN STYLES */
+
+/* SECTION STYLES */
+a{
+  text-decoration: none;
+  color: rgb(115, 134, 161);
+  font-size: 16px;
+  line-height: 21px;
+}
+a:active, a:hover{
+  color: beige;
+  /* font-size: 20px; */
+  transition-duration: 300ms;
+  transition-timing-function: ease ;
+  transform-style: preserve-3d;
+}
+img{
+  margin: 400px, 4000px;
+}
+
+
+
+
+
+
+
+
+
